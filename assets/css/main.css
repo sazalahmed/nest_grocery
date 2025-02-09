@@ -27,15 +27,21 @@ TABLE CONTENT
  Custom amine
 ***/
 @import url(https://fonts.bunny.net/css?family=lato:400,700,900|quicksand:400,500,600,700);
+
 /*import vendors*/
 @import url(vendors/normalize.css);
 @import url(vendors/bootstrap.min.css);
 @import url(vendors/uicons-regular-straight.css);
+
 /*import plugins*/
 @import url(plugins/magnific-popup.css);
 @import url(plugins/select2.min.css);
 @import url(plugins/slick.css);
 @import url(plugins/perfect-scrollbar.css);
+
+@import url(plugins/animate.min.css);
+@import url(plugins/slider-range.css);
+@import url(plugins/jquery-ui.css);
 
 /*RESET*/
 html,
@@ -5419,7 +5425,7 @@ table.no-border thead {
   padding: 10px 20px;
   border: 1px solid #ececec;
   font-family: "Quicksand", sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 700;
 }
 
