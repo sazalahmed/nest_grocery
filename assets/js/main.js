@@ -762,5 +762,15 @@
         mousePause: false,
         showItems: 1
     });
+
+
+    // product filter
+    $(".sidebar_filter").on("click", function () {
+        $(".shop_sidebar").toggleClass("show");
+    });
+    $(".sidebar_filter").on("click", function () {
+        $(".sidebar_filter").toggleClass("show");
+    });
+
 })(jQuery);
 
