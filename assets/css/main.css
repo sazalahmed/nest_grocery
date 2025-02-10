@@ -29,19 +29,13 @@ TABLE CONTENT
 @import url(https://fonts.bunny.net/css?family=lato:400,700,900|quicksand:400,500,600,700);
 
 /*import vendors*/
-@import url(vendors/normalize.css);
 @import url(vendors/bootstrap.min.css);
 @import url(vendors/uicons-regular-straight.css);
-
 /*import plugins*/
-@import url(plugins/magnific-popup.css);
 @import url(plugins/select2.min.css);
 @import url(plugins/slick.css);
-@import url(plugins/perfect-scrollbar.css);
-
 @import url(plugins/animate.min.css);
 @import url(plugins/slider-range.css);
-@import url(plugins/jquery-ui.css);
 
 /*RESET*/
 html,
@@ -1633,7 +1627,7 @@ label {
 }
 
 .form-control {
-  border: 1px solid #f0e9ff;
+  border: 1px solid #ececec;
   border-radius: 10px;
   height: 48px;
   padding-left: 18px;
@@ -1653,6 +1647,7 @@ label {
 .comment-form textarea {
   min-height: 200px;
   padding-top: 15px;
+  border: 1px solid #ececec;
 }
 
 .comment-form textarea:focus {
@@ -12531,6 +12526,10 @@ footer .hotline img {
     font-size: 17px;
     padding: 15px 20px;
   }
+
+  .deals-countdown .countdown-section {
+    margin: 0px 4px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -12933,6 +12932,10 @@ footer .hotline img {
   .shop_sidebar.show {
     display: block;
   }
+
+  .nav-tabs.links .nav-link {
+    padding: 0 3px;
+  }
 }
 
 @media (max-width: 575.99px) {
@@ -13045,5 +13048,9 @@ footer .hotline img {
 
   .shop_sidebar.show {
     display: block;
+  }
+
+  .deal {
+    padding: 15px;
   }
 }
