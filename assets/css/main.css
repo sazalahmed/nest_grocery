@@ -26,6 +26,7 @@ TABLE CONTENT
  WP STYPE
  Custom amine
 ***/
+
 @import url(https://fonts.bunny.net/css?family=lato:400,700,900|quicksand:400,500,600,700);
 
 /*import vendors*/
@@ -3790,7 +3791,7 @@ table .product-thumbnail img {
 .product-cart-wrap .product-action-1 a.action-btn {
   width: 40px;
   height: 36px;
-  line-height: 40px;
+  line-height: 42px;
   text-align: center;
   position: relative;
   display: inline-block;
@@ -3806,7 +3807,7 @@ table .product-thumbnail img {
 .product-cart-wrap .product-action-1 a.action-btn.small {
   width: 32px;
   height: 32px;
-  line-height: 32px;
+  line-height: 35px;
 }
 
 .product-cart-wrap .product-action-1 button.small i,
